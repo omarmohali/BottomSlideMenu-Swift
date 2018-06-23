@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SlideMenuTest.xcodeproj">
+      location = "self:/Users/omarali/Development/Temporaries/SlideMenuTest/BottomSlideMenu.xcodeproj">
    </FileRef>
 </Workspace>

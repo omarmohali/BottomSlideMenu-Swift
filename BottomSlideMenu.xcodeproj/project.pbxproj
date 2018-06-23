@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13FE306620DE819000E5527F /* SlideMenuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FE306620DE819000E5527F /* BottomSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FE306920DE819000E5527F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13FE306B20DE819000E5527F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13FE306E20DE819000E5527F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		13FE306720DE819000E5527F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13FE306620DE819000E5527F /* SlideMenuTest.app */,
+				13FE306620DE819000E5527F /* BottomSlideMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13FE306520DE819000E5527F /* SlideMenuTest */ = {
+		13FE306520DE819000E5527F /* BottomSlideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13FE307B20DE819000E5527F /* Build configuration list for PBXNativeTarget "SlideMenuTest" */;
+			buildConfigurationList = 13FE307B20DE819000E5527F /* Build configuration list for PBXNativeTarget "BottomSlideMenu" */;
 			buildPhases = (
 				13FE306220DE819000E5527F /* Sources */,
 				13FE306320DE819000E5527F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SlideMenuTest;
+			name = BottomSlideMenu;
 			productName = SlideMenuTest;
-			productReference = 13FE306620DE819000E5527F /* SlideMenuTest.app */;
+			productReference = 13FE306620DE819000E5527F /* BottomSlideMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 13FE306120DE819000E5527F /* Build configuration list for PBXProject "SlideMenuTest" */;
+			buildConfigurationList = 13FE306120DE819000E5527F /* Build configuration list for PBXProject "BottomSlideMenu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13FE306520DE819000E5527F /* SlideMenuTest */,
+				13FE306520DE819000E5527F /* BottomSlideMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13FE306120DE819000E5527F /* Build configuration list for PBXProject "SlideMenuTest" */ = {
+		13FE306120DE819000E5527F /* Build configuration list for PBXProject "BottomSlideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13FE307920DE819000E5527F /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13FE307B20DE819000E5527F /* Build configuration list for PBXNativeTarget "SlideMenuTest" */ = {
+		13FE307B20DE819000E5527F /* Build configuration list for PBXNativeTarget "BottomSlideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13FE307C20DE819000E5527F /* Debug */,
