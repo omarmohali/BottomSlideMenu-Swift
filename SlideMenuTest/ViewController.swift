@@ -8,6 +8,28 @@
 
 import UIKit
 
+
+
+class CustomCell: UITableViewCell {
+    
+    init(string: String) {
+        
+        super.init(style: .default, reuseIdentifier: "cell")
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = string
+        addSubview(label)
+        label.topAnchor.constraint(equalTo: topAnchor, constant: 20.0)
+        label.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 20.0)
+        label.centerXAnchor.constraint(equalTo: centerXAnchor)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+}
+
 class ViewController: UIViewController,  SlidupButtonDelegate {
 
     let button: SlideupButton = {
@@ -165,7 +187,7 @@ protocol SlideupMenuTableViewDelegate {
     func didSelectItem(selectedItem: String, selectedItemIndex: Int)
 }
 
-protocol SlideupMenuDataSource {
+protocol SlideupMenuTableViewDataSource {
     func numberOfItems(in slideupMenu: SlideupMenuTableView) -> Int
     func slideupMenu(_ slideupMenu: SlideupMenuTableView, cellForItemAt row: Int) -> UITableViewCell
 }
