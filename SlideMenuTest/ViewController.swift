@@ -124,12 +124,7 @@ class SlideupButton: UIButton, SlideupMenuTableViewDelegate {
         
         let height: CGFloat = slideupMenuTableView.contentSize.height
         
-//        if slideupMenuTableView.contentSize.height > CGFloat(maximumHeight) {
-//            height = CGFloat(maximumHeight)
-//        }
-//        else {
-//            height = slideupMenuTableView.contentSize.height
-//        }
+
         
         
         if menuIsOpened {
