@@ -197,7 +197,7 @@ class SlideupMenuTableView: UITableView, UITableViewDelegate, UITableViewDataSou
 
     private let menuItems: [String]
     var slideupMenuDelegate: SlideupMenuTableViewDelegate?
-    var slideUpMenuDataSource: SlideupMenuDataSource?
+    var slideUpMenuDataSource: SlideupMenuTableViewDataSource?
     
     init(items: [String]) {
         self.menuItems = items
